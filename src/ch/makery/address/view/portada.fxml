@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="342.0" prefWidth="380.0" styleClass="background" stylesheets="@DarkTheme.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.makery.address.view.PersonEditDialogController">
+   <children>
+      <BorderPane layoutX="42.0" layoutY="36.0" prefHeight="342.0" prefWidth="380.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <bottom>
+            <BorderPane prefHeight="306.0" prefWidth="380.0" BorderPane.alignment="CENTER">
+               <center>
+                  <ImageView fitHeight="114.0" fitWidth="89.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+                     <image>
+                        <Image url="@../../../../../../../Examen%20psp/MULTIHILO/EJERCICIOS%20HILOS/cargando2.gif" />
+                     </image>
+                  </ImageView>
+               </center>
+               <top>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+                     <image>
+                        <Image url="@../../../../../../../Examen%20psp/MULTIHILO/EJERCICIOS%20HILOS/TvDirecto.png" />
+                     </image>
+                  </ImageView>
+               </top>
+            </BorderPane>
+         </bottom>
+      </BorderPane>
+   </children>
+</AnchorPane>
